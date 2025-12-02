@@ -5,7 +5,6 @@ API REST desenvolvida em Java com Spring Boot para gerenciamento de biblioteca a
 **Autores:** Fernanda Alves, Ana Gusmão, Amanda Lanay  
 **Versão:** 1.0
 
----
 
 ## Sobre o Projeto
 
@@ -17,7 +16,7 @@ Sistema completo de gerenciamento de biblioteca que inclui:
 - Consulta de empréstimos ativos
 - Integração com procedures, functions e views do MySQL
 
----
+
 
 ## Tecnologias Utilizadas
 
@@ -28,7 +27,7 @@ Sistema completo de gerenciamento de biblioteca que inclui:
 - **Maven** (gerenciamento de dependências)
 - **Jakarta Validation** (validações)
 
----
+
 
 ## Requisitos
 
@@ -39,7 +38,7 @@ Antes de rodar o projeto, certifique-se de ter instalado:
 - [Maven 3.6+](https://maven.apache.org/download.cgi) (opcional, pode usar o wrapper incluído)
 - Uma IDE Java (IntelliJ IDEA, Eclipse, VSCode, etc.)
 
----
+
 
 ## Configuração e Instalação
 
@@ -133,7 +132,7 @@ Acesse: http://localhost:8080/api
 ===========================================
 ```
 
----
+
 
 ## Endpoints da API
 
@@ -224,7 +223,7 @@ POST /api/emprestimos/1/devolver
 }
 ```
 
----
+
 
 ## Estrutura do Projeto
 
@@ -263,7 +262,6 @@ biblioteca-api/
 Controller (REST) → Service (Lógica) → Repository (Banco) → MySQL
 ```
 
----
 
 ## Integração com Banco de Dados
 
@@ -300,7 +298,7 @@ As triggers criadas na Fase 2 são **ativadas automaticamente** pelas operaçõe
 - Validações de integridade
 - Atualizações em cascata
 
----
+
 
 ## Testando a API
 
@@ -332,7 +330,7 @@ curl -X POST http://localhost:8080/api/emprestimos/1/devolver
 2. Configure a base URL: `http://localhost:8080/api`
 3. Teste os endpoints conforme documentação acima
 
----
+
 
 ## Troubleshooting
 
@@ -363,7 +361,7 @@ curl -X POST http://localhost:8080/api/emprestimos/1/devolver
   SHOW PROCEDURE STATUS WHERE Db = 'biblioteca_fase_2';
   ```
 
----
+
 
 ## Validações Implementadas
 
@@ -381,7 +379,7 @@ curl -X POST http://localhost:8080/api/emprestimos/1/devolver
 - CPF: exatamente 11 caracteres
 - Telefone: máx 20 caracteres
 
----
+
 
 ## Requisitos da Fase 3 Atendidos
 
@@ -394,12 +392,12 @@ curl -X POST http://localhost:8080/api/emprestimos/1/devolver
 - Separação de responsabilidades (MVC)
 - Documentação completa
 
----
+
 
 ## Licença
 
 Projeto acadêmico - Disciplina de Conectar Banco de Dados com POO
 
----
+
 
 **Desenvolvido por Fernanda Alves, Ana Gusmão e Amanda Lanay**
