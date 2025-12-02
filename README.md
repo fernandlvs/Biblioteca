@@ -298,8 +298,6 @@ As triggers criadas na Fase 2 são **ativadas automaticamente** pelas operaçõe
 - Validações de integridade
 - Atualizações em cascata
 
-
-
 ## Testando a API
 
 ### Usando cURL
