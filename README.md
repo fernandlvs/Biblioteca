@@ -1,6 +1,6 @@
 # Biblioteca API - Sistema de Gerenciamento de Biblioteca
 
-API REST desenvolvida em Java com Spring Boot para gerenciamento de biblioteca acadêmica. Projeto da disciplina de Banco de Dados - Fase 3.
+API REST desenvolvida em Java com Spring Boot para gerenciamento de biblioteca acadêmica. Projeto da disciplina de Banco de Dados - Fase 2.
 
 **Autores:** Fernanda Alves, Ana Gusmão, Amanda Lanay  
 **Versão:** 1.0
